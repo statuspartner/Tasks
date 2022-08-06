@@ -1,10 +1,10 @@
 ﻿int count = 0;
-int distance = 10000;
+int distance = 100;
 int firstFriendSpeed = 1;
 int secondFriendSpeed = 2;
-int dogSpeed = 5;
+int dogSpeed = 3;
 int friend = 2;
-int minDistance = 10;
+int minDistance = 3;
 int time;
 
 while(distance > minDistance)
@@ -25,4 +25,4 @@ while(distance > minDistance)
 
 Console.Write("Собака перебежит от друга к другу ");
 Console.Write(count);
-Console.WriteLine(" раз, пока они не встретятся.");
+Console.WriteLine(" раз(а), пока они не встретятся.");
