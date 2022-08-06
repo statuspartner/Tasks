@@ -10,6 +10,6 @@ while(i <= x)
         Console.Write(even + i);
         Console.WriteLine(" ");
     }
-    i++;
+    i += 2;
 
 }
