@@ -4,9 +4,10 @@ int firstFriendSpeed = 1;
 int secondFriendSpeed = 2;
 int dogSpeed = 5;
 int friend = 2;
+int minDistance = 10;
 int time;
 
-while(distance > 10)
+while(distance > minDistance)
 {
     if(friend == 1)
     {
