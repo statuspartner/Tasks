@@ -3,7 +3,7 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите целое число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-if(numberA*numberA == numberB)
+if(numberB*numberB == numberA)
 {
     Console.WriteLine("Да");
 }
