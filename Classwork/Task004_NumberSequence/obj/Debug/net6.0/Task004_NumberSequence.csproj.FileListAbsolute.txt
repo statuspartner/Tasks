@@ -1,0 +1,15 @@
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/bin/Debug/net6.0/Task004_NumberSequence
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/bin/Debug/net6.0/Task004_NumberSequence.deps.json
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/bin/Debug/net6.0/Task004_NumberSequence.runtimeconfig.json
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/bin/Debug/net6.0/Task004_NumberSequence.dll
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/bin/Debug/net6.0/Task004_NumberSequence.pdb
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/Task004_NumberSequence.csproj.AssemblyReference.cache
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/Task004_NumberSequence.GeneratedMSBuildEditorConfig.editorconfig
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/Task004_NumberSequence.AssemblyInfoInputs.cache
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/Task004_NumberSequence.AssemblyInfo.cs
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/Task004_NumberSequence.csproj.CoreCompileInputs.cache
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/Task004_NumberSequence.dll
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/refint/Task004_NumberSequence.dll
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/Task004_NumberSequence.pdb
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/Task004_NumberSequence.genruntimeconfig.cache
+/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/Debug/net6.0/ref/Task004_NumberSequence.dll

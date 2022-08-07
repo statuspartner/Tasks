@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/Task004_NumberSequence.csproj": {}
+  },
+  "projects": {
+    "/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/Task004_NumberSequence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/Task004_NumberSequence.csproj",
+        "projectName": "Task004_NumberSequence",
+        "projectPath": "/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/Task004_NumberSequence.csproj",
+        "packagesPath": "/home/vlad/.nuget/packages/",
+        "outputPath": "/home/vlad/Документы/mygit/C#/Tasks/Classwork/Task004_NumberSequence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vlad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
