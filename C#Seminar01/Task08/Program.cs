@@ -5,6 +5,7 @@
 8 -> 2, 4, 6, 8
 */
 
+/*
 Console.Write("Введите целое положительное число: ");
 int x = Convert.ToInt32(Console.ReadLine());
 int i = 2;
@@ -18,5 +19,18 @@ while(i <= x)
         Console.WriteLine(" ");
     }
     i += 2;
+}
+*/
 
+// Версия Преподавателя
+
+Console.WriteLine("Введите целое число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 2; i <= n; i++)
+{
+    if (i % 2 == 0)
+    {
+        Console.WriteLine($"{i}");
+    }
 }
