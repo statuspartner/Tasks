@@ -6,6 +6,7 @@
 22,3,9 -> 22
 */
 
+/*
 Console.Write("Введите целое число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите целое число: ");
@@ -25,3 +26,18 @@ if (numberC > max)
 
 Console.Write("Максимальное число: ");
 Console.WriteLine(max);
+*/
+
+// Решение Преподавателя
+
+Console.WriteLine("Введите три целых числа:");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+
+int max = a;
+
+if(b > max) max = b;
+if(c > max) max = c;
+
+Console.WriteLine($"Максимальное число: {max}");
