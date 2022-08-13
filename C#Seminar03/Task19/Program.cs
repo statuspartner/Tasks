@@ -6,7 +6,7 @@
 23432 -> да
 */
 
-Console.Write("Введите кандидата на Палиндром: ");
+Console.Write("Введите число из 5-ти знаков (кандидата на Палиндром): ");
 string palindrome = Console.ReadLine();
 int length = palindrome.Length;
 if(palindrome.Length == 5)
