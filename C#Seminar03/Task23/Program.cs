@@ -4,7 +4,7 @@
 5 -> 1, 8, 27, 64, 125.
 */
 
-Console.Write("Введите целое число: ");
+/* Console.Write("Введите целое число: ");
 int N = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 Console.Write("Ряд кубов чисел: ");
 
@@ -19,4 +19,15 @@ for (int i = 1; i <= N; i++)
     {
         Console.WriteLine(".");
     }
+} */
+
+// Решение Преподавателя
+
+Console.WriteLine("Введите число: ");
+
+int N = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= N; i++)
+{
+    Console.WriteLine($"Куб числа {i} = {Math.Pow(i, 3)} ");
 }
