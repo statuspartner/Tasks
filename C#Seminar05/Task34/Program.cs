@@ -15,7 +15,7 @@ while (i < len)
     i++;
 }
 Console.Write(" \n");
-Console.Write("Положительные числа массива: ");
+Console.Write("Чётные числа массива: ");
 for (int j = 0; j < len; j++)
 {
     if (array[j] % 2 == 0)
@@ -25,4 +25,4 @@ for (int j = 0; j < len; j++)
     }
 }
 Console.Write(" \n");
-Console.WriteLine("Количество положительных чисел в массиве: " + count);
+Console.WriteLine("Количество чётных чисел в массиве: " + count);
