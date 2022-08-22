@@ -19,7 +19,6 @@ for (int j = 0; j < length; j++)
 {
     if(array[j] > 9 & array[j] < 100)
     {
-        // Console.Write(array[j] + " ");
         count++;
         Console.Write(array[j] + " ");
     }
