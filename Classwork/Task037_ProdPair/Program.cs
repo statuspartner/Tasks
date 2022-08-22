@@ -2,7 +2,7 @@
 // второй и предпоследний и т.д. Результат запишите в новом массиве.
 // [1,2,3,4,5] -> 5 8 3; [6,7,3,6] ->  36 21
 
-int[] array = {1, 2, 3, 4, 5};
+/* int[] array = {1, 2, 3, 4, 5};
 int len = array.Length;
 int index = 0;
 
@@ -35,4 +35,35 @@ else
     }
     Console.Write(array[index]);
 }
+Console.WriteLine(); */
+
+// Дополнительное решение:
+
+int[] array = new int[9];
+
+int length = array.Length;
+int index = 0;
+
+while(index < length)
+{
+    array[index] = new Random().Next(0, 10);
+     Console.Write($"{array[index]} ");
+    index++;
+    
+   
+}
 Console.WriteLine();
+for ( int i = 0; i <( (length / 2) + 1); i++)
+{
+    // Console.WriteLine();
+    if (i != (length -i -1) )
+    {
+        Console.Write($"{ array[i] * array[length -i -1]} ");
+        
+    }
+    else 
+    {
+    Console.WriteLine(array[i]);
+    }
+
+}
