@@ -23,13 +23,6 @@ for (int j = 0; j < length; j++)
         count++;
         Console.Write(array[j] + " ");
     }
-    
-    // else
-    // {
-    //     Console.WriteLine("Нет такого.");
-    //     break;
-    // }
-    
 }
 Console.WriteLine(" \n");
 Console.Write("Количество найденных элементов массива: " + count);
