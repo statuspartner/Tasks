@@ -11,8 +11,8 @@ double max = 0;
 Console.Write("Массив: ");
 while (i < len)
 {
-    // array[i] = new Random().NextDouble() * 200 - 100;
-    array[i] = new Random().NextDouble() * 100;
+    array[i] = new Random().NextDouble() * 200 - 100;
+    // array[i] = new Random().NextDouble() * 100;
     Console.Write(Math.Round(array[i], 2) + "| ");
     i++;
 }
