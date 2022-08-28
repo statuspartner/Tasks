@@ -21,13 +21,15 @@ void FillArray(int[,] arr)
     }
 }
 
+int SumDiag = 0;
 void SumDiagonal(int[,] arr)
 {
     for (int i = 0; i < arr.GetLength(0); i++)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            if (i == j) arr[i, j] = arr[i, j] * arr[i, j];
+            if (i == j) SumDiag = SumDiag + arr[i, j];
+            
         }
     }
 }
@@ -46,4 +48,4 @@ FillArray(array);
 PrintArray(array);
 SumDiagonal(array);
 Console.WriteLine();
-PrintArray(array);
+Console.WriteLine($"Сумма главной диагонали: {SumDiag}");
