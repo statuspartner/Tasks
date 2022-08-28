@@ -45,7 +45,7 @@ void AverageNumbers(int[,] arr)
         {
             Average += arr[i, j];
         }
-        array2[k] = Math.Round((Average / arr.GetLength (0)), 2);
+        array2[k] = Math.Round((Average / arr.GetLength (0)), 1, MidpointRounding.AwayFromZero);
         Console.WriteLine("Сумма чисел в столбце №" + (j+1) + " равно " + Average + ".\tСреднее арифметическое столбца равно: " + array2[k] + ".");
         k++;
 
