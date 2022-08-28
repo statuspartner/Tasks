@@ -5,13 +5,14 @@
 // 5  -2 33  -2
 // 77  3  8   1
 
-Console.Write("Введите число m: ");
+Console.Clear();
+Console.Write("Введите высоту массива: ");
 int m = int.Parse(Console.ReadLine());
-Console.Write("Введите число n: ");
+Console.Write("Введите ширину массива: ");
 int n = int.Parse(Console.ReadLine());
 
 
-int[,] arr = new int[m, n];
+int[,] array = new int[m, n];
 
 void FillArray(int[,] arr)
 {
@@ -32,5 +33,5 @@ void PrintArray(int[,] arr)
     }
 }
 
-FillArray(arr);
-PrintArray(arr);
+FillArray(array);
+PrintArray(array);
