@@ -3,6 +3,8 @@
 // будет на первом месте, первый - на последнем и т.д.)
 // [1 2 3 4 5] -> [5 4 3 2 1]
 // [6 7 3 6] -> [6 3 7 6]
+// Array.Reverse - метод, который это делает за нас. 
+// Но нам нужно сделать это руками.
 
 int[] ReverseArray(int[] input) 
 {
@@ -19,7 +21,7 @@ int[] ReverseArray(int[] input)
 void PrintArray(int[] input)
 {
     for (var i = 0; i < input.Length; i++)
-        Console.Write(input[i] + ", ");
+        Console.Write(input[i] + " ");
 }
 
 int[] input = new int[] {6, 7, 3, 6};
