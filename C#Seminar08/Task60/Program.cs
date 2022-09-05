@@ -34,13 +34,13 @@ void FillArray(int[,,] array)
 
 void PrintArray(int[,,] array)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(2); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < array.GetLength(0); j++)
         {
-            for (int k = 0; k < array.GetLength(2); k++)
+            for (int k = 0; k < array.GetLength(1); k++)
             {
-                Console.Write(array[i,j,k] + "(" + i + "," + j + "," + k + ")" + " ");
+                Console.Write(array[i,j,k] + "(" + i + ", " + j + ", " + k + ")" + " ");
             }
             Console.WriteLine();
         }
